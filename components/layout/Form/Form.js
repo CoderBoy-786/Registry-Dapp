@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import FormLeftWrapper from './Components/FormLeftWrapper'
-import FormRightWrapper from './Components/FormRightWrapper'
+import FormLeftWrapper from './components/FormLeftWrapper'
+import FormRightWrapper from './components/FormRightWrapper'
 import { createContext, useState } from 'react';
 import {TailSpin} from 'react-loader-spinner';
 import {ethers} from 'ethers';
