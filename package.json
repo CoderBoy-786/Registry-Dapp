@@ -9,12 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.4",
+    "@mui/styled-engine-sc": "^5.10.3",
+    "dotenv": "^16.0.2",
+    "install": "^0.13.0",
+    "ipfs-http-client": "^58.0.0",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-toastify": "^9.0.8",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "babel-plugin-styled-components": "^2.0.7",
+    "chai": "^4.3.6",
     "eslint": "8.23.0",
-    "eslint-config-next": "12.3.0"
+    "eslint-config-next": "12.3.0",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.11.1"
   }
 }
