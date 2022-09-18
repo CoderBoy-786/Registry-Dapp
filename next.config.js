@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images:{
-    domains:['ipfs.infura.io','th.bing.com','registry.infura-ipfs.io']
+    domains:['ipfs.infura.io','th.bing.com','registry-dapp.infura-ipfs.io']
   }
 }
 

@@ -60,7 +60,7 @@ export default function Dashboard() {
             <Image 
               alt="Registry dapp"
               layout='fill' 
-              src={"https://registry.infura-ipfs.io/ipfs/" + e.image} 
+              src={"https://registry-dapp.infura-ipfs.io/ipfs/" + e.image} 
             />
           </CardImg>
           <Title>

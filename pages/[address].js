@@ -80,7 +80,7 @@ export default function Detail({Data}) {
             alt="registry dapp"
             layout="fill"
             src={
-              "https://registry.infura-ipfs.io/ipfs/" + Data.image
+              "https://registry-dapp.infura-ipfs.io/ipfs/" + Data.image
             }
           />
         </ImageSection>
@@ -173,7 +173,8 @@ export async function getStaticProps(context) {
   return {
     props: {
      Data:   JSON.parse(JSON.stringify(Data)) 
-    }
+    },
+    revalidate: 10
   }
 
 

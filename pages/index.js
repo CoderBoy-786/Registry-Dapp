@@ -36,7 +36,7 @@ export default function Index({AllData, ResellingData, FirstTimesellData,Governm
             <Image 
               alt="Registry dapp"
               layout='fill' 
-              src={"https://registry.infura-ipfs.io/ipfs/" + e.image} 
+              src={"https://registry-dapp.infura-ipfs.io/ipfs/" + e.image} 
             />
           </CardImg>
           <Title>
@@ -72,6 +72,7 @@ export default function Index({AllData, ResellingData, FirstTimesellData,Governm
 export async function getStaticProps() {
   const provider = new ethers.providers.JsonRpcProvider(
     process.env.NEXT_PUBLIC_RPC_URL
+    
   );
 
   const contract = new ethers.Contract(
@@ -135,9 +136,11 @@ export async function getStaticProps() {
       ResellingData,
       FirstTimesellData,
       GovernmentPropertyData
+    },
+    revalidate: 10
     }
   }
-}
+
 const HomeWrapper = styled.div`
   display: flex;
   flex-direction: column;
