@@ -185,7 +185,7 @@ export async function getStaticProps(context) {
 
 const DetailWrapper = styled.div`
   display: flex;
-  position: absolute;
+/* position: absolute;   */
   justify-content: center;
   align-items:center;
   padding: 20px;
@@ -202,7 +202,7 @@ const ImageSection = styled.div`
   justify-content: center;
   align-items:center;
   position: relative;
-  height: 500px;
+  height: 100vh;
 `;
 const Text = styled.p`
   font-family: "Roboto";
