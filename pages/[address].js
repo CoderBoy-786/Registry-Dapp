@@ -184,9 +184,11 @@ export async function getStaticProps(context) {
 
 const DetailWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  position: absolute;
+  justify-content: center;
+  align-items:center;
   padding: 20px;
-  width: 98%;
+  width: 100%;
 `;
 const LeftContainer = styled.div`
   width: 45%;
@@ -195,7 +197,9 @@ const RightContainer = styled.div`
   width: 50%;
 `;
 const ImageSection = styled.div`
-  width: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items:center;
   position: relative;
   height: 500px;
 `;
